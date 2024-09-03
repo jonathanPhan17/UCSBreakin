@@ -1,7 +1,9 @@
+import AboutUs from "./Pages/AboutUs";
+
 function App() {
   return (
     <>
-      <h1>Hello UCSBreakin</h1>
+      <AboutUs />
     </>
   );
 }

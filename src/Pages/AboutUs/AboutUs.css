@@ -1,0 +1,36 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 250px;
+}
+
+.about-us-header {
+  font-family: "Bebas Neue", system-ui;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.about-us-header h2 {
+  font-size: 3rem;
+}
+
+.about-us-content {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(223, 216, 216);
+}
+
+.about-us-content-link {
+  color: #ff6666;
+}
+
+.about-us-content-link:hover {
+  color: #cc4c4c;
+  text-decoration: none;
+}

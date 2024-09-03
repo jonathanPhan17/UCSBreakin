@@ -1,0 +1,10 @@
+.navbar-container {
+  display: flex;
+  background-color: aqua;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+
+}

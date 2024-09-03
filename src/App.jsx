@@ -1,5 +1,8 @@
 import { Route, Routes } from "react-router-dom";
+
+// components
 import NavBar from "./Components/NavBar/NavBar";
+import Footer from "./Components/Footer/Footer";
 
 // Pages
 import AboutUs from "./Pages/AboutUs";
@@ -15,6 +18,7 @@ function App() {
         <Route path="/Events" element={<Events />} />
         <Route path="/Contacts" element={<Contacts />} />
       </Routes>
+      <Footer />
     </>
   );
 }

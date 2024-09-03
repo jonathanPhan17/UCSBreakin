@@ -1,10 +1,24 @@
 .navbar-container {
   display: flex;
-  background-color: aqua;
-  
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 
-.nav-link {
+.navbar-left .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
   text-decoration: none;
+}
 
+.navbar-right .nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right .nav-links .nav-link {
+  text-decoration: none;
+  margin-right: 1rem;
 }

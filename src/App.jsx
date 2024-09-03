@@ -5,7 +5,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import Footer from "./Components/Footer/Footer";
 
 // Pages
-import AboutUs from "./Pages/AboutUs";
+import AboutUs from "./Pages/AboutUs/AboutUs";
 import Events from "./Pages/Events";
 import Contacts from "./Pages/Contacts";
 

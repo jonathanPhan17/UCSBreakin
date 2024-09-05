@@ -9,9 +9,11 @@
   padding: 25px 80px;
 }
 
-.navbar-left .logo {
-  font-size: 1.5rem;
-  text-decoration: none;
+.navbar-left .logo img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
 }
 
 .navbar-right .nav-links {
@@ -25,12 +27,9 @@
   text-decoration: none;
   margin-right: 3rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .navbar-right .nav-links .nav-link:hover {
   color: rgba(223, 216, 216, 0.7);
-}
-
-.navbar-right .nav-links .nav-link:active {
-  color: #ff3300;
 }

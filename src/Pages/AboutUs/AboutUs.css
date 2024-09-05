@@ -5,7 +5,7 @@
   align-items: center;
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 250px;
+  padding-top: 120px;
 }
 
 .about-us-header {
@@ -18,6 +18,19 @@
 
 .about-us-header h2 {
   font-size: 3rem;
+}
+
+.about-us-header h3 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 1.13px;
+}
+
+.about-us-header-white-space {
+  display: block;
+  padding: 12px;
 }
 
 .about-us-content {
@@ -33,4 +46,18 @@
 .about-us-content-link:hover {
   color: #cc4c4c;
   text-decoration: none;
+}
+
+.about-us-content-hashtag {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.meet-the-crew-container h2 {
+  font-family: "Bebas Neue", system-ui;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 3rem;
 }

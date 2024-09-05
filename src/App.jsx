@@ -7,7 +7,7 @@ import Footer from "./Components/Footer/Footer";
 // Pages
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Events from "./Pages/Events";
-import Contacts from "./Pages/Contacts";
+import Contacts from "./Pages/Contacts/Contacts";
 
 function App() {
   return (

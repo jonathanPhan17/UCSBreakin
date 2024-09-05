@@ -1,0 +1,66 @@
+.contact-container {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.contact-location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-location-main-content {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 140px;
+  margin-right: 6rem;
+}
+
+.contact-location-main-content h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: 1.13px;
+}
+
+.contact-location-main-content p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#google-map-canvas {
+  width: 600px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.contact-booking-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.contact-booking-container h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 44px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.contact-booking-container h3 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.contact-booking-container p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 2px;
+}

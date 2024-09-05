@@ -61,3 +61,29 @@
   text-align: center;
   font-size: 3rem;
 }
+
+.meet-the-crew-grid {
+  display: grid;
+  column-gap: 0px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.meet-the-crew-each {
+  text-align: center;
+  align-items: center;
+  margin: 2px;
+}
+
+.meet-the-crew-each p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.meet-the-crew-grid img {
+  width: 317px;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+}

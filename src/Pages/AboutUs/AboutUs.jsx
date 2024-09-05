@@ -97,6 +97,44 @@ const AboutUs = () => {
         </p>
         <div className="meet-the-crew-container">
           <h2>Meet the crew</h2>
+          <div className="meet-the-crew-grid">
+            <div className="meet-the-crew-each">
+              <img src="/src/static/placeholder.png" alt="placeholder" />
+              <p className="meet-the-crew-title">Lucas Joseph</p>
+            </div>
+            <div className="meet-the-crew-each">
+              <img src="/src/static/placeholder.png" alt="placeholder" />
+              <p className="meet-the-crew-title">Ian Shiens</p>
+            </div>
+            <div className="meet-the-crew-each">
+              <img src="/src/static/placeholder.png" alt="placeholder" />
+              <p className="meet-the-crew-title">Scott Yen Zai</p>
+            </div>
+            <div className="meet-the-crew-each">
+              <img src="/src/static/placeholder.png" alt="placeholder" />
+              <p className="meet-the-crew-title">Arielle Leong</p>
+            </div>
+            <div className="meet-the-crew-each">
+              <img src="/src/static/placeholder.png" alt="placeholder" />
+              <p className="meet-the-crew-title">Hong10</p>
+            </div>
+            <div className="meet-the-crew-each">
+              <img src="/src/static/placeholder.png" alt="placeholder" />
+              <p className="meet-the-crew-title">Matthew</p>
+            </div>
+            <div className="meet-the-crew-each">
+              <img src="/src/static/placeholder.png" alt="placeholder" />
+              <p className="meet-the-crew-title">Hayate</p>
+            </div>
+            <div className="meet-the-crew-each">
+              <img src="/src/static/placeholder.png" alt="placeholder" />
+              <p className="meet-the-crew-title">Talia</p>
+            </div>
+            <div className="meet-the-crew-each">
+              <img src="/src/static/placeholder.png" alt="placeholder" />
+              <p className="meet-the-crew-title">Brian Lew</p>
+            </div>
+          </div>
         </div>
       </main>
     </div>

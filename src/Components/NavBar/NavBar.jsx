@@ -31,7 +31,7 @@ const NavBar = () => {
           </li>
           <li>
             <NavLink to={"/Contacts"} className="nav-link" style={activeState}>
-              Contacts
+              Contacts  
             </NavLink>
           </li>
         </ul>

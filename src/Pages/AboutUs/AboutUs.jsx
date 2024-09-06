@@ -75,9 +75,9 @@ const AboutUs = () => {
             Kaotyk
           </a>
           , UCSBreakin' started with nothing but a small mat, a boombox, and a
-          passion for breaking. Fast forward nine years, and we've grown into
-          one of the Central Coast's largest crews of B-Boys and B-Girls, all
-          united by a love for Hip-Hop and a mission to bring its energy to
+          passion for breaking. Fast forward fourteen years, and we've grown
+          into one of the Central Coast's largest crews of B-Boys and B-Girls,
+          all united by a love for Hip-Hop and a mission to bring its energy to
           Santa Barbara. We're not just students or a crew—we're a family. If
           you're ever in town, come vibe with us and be part of the movement!
         </p>

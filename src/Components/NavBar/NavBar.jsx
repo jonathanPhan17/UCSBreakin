@@ -1,9 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 import "./NavBar.css";
 
 const NavBar = () => {
+  const activeState = ({ isActive }) => {
+    return {
+      color: isActive ? "#ff6666" : "",
+    };
+  };
+
   return (
     <div className="navbar-container">
       <div className="navbar-left">
@@ -14,19 +20,19 @@ const NavBar = () => {
       <div className="navbar-right">
         <ul className="nav-links">
           <li>
-            <Link to={"/"} className="nav-link">
+            <NavLink to={"/"} className="nav-link" style={activeState}>
               About Us
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={"/Events"} className="nav-link">
+            <NavLink to={"/Events"} className="nav-link" style={activeState}>
               Events
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={"/Contacts"} className="nav-link">
+            <NavLink to={"/Contacts"} className="nav-link" style={activeState}>
               Contacts
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>

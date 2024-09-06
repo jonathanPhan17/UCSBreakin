@@ -6,7 +6,7 @@ import "./NavBar.css";
 const NavBar = () => {
   const activeState = ({ isActive }) => {
     return {
-      color: isActive ? "#ff6666" : "",
+      color: isActive ? "#e63946" : "",
     };
   };
 

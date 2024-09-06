@@ -1,6 +1,9 @@
 import React from "react";
 import "./AboutUs.css";
 
+// components
+import Gallery from "../../Components/Gallery/Gallery";
+
 const AboutUs = () => {
   return (
     <div className="about-us-container">
@@ -135,6 +138,9 @@ const AboutUs = () => {
               <p className="meet-the-crew-title">Brian Lew</p>
             </div>
           </div>
+        </div>
+        <div className="gallery-container">
+          <Gallery />
         </div>
       </main>
     </div>
